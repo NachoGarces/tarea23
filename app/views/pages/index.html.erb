@@ -1,0 +1,23 @@
+<h1>Harry Potter</h1>
+<p>Random data</p>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Name</th>
+      <th scope="col">Location</th>
+      <th scope="col">House</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @todos.each do |t| %>
+        <tr>
+            <th scope="row"><%= t.id %></th>
+            <td><%= t.name %></td>
+            <td><%= t.location %></td>
+            <td><%= t.house %></td>
+        </tr>
+    <% end %>
+  </tbody>
+</table>
