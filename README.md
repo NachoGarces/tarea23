@@ -9,7 +9,7 @@ No se sube a Heroku ni Railsway, pero se activa githubpages
 
 #### Link
 
-- [Github Pages](https://nachogarces.github.io/pasosror/)
+- [Github Pages](https://nachogarces.github.io/tarea23/)
 ## Autor
 
 - [@NachoGarces](https://github.com/NachoGarces)
